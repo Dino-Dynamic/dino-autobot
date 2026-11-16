@@ -9,6 +9,7 @@ Bộ skill Claude Code để kiểm thử ứng dụng di động. Dùng chung q
 |---|---|---|
 | [`mobile-app-test-workflow`](skills/mobile-app-test-workflow/SKILL.md) | Giai đoạn 1 | Điều phối trọn dự án test app iOS / Android outsource không tài liệu: intake → baseline → kế hoạch theo rủi ro → round → defect → retest → release / store → Go / No-go. Độc lập với bộ skill QA nội bộ |
 | [`run-mobile-manual-test`](skills/run-mobile-manual-test/SKILL.md) | Giai đoạn 1 | Claude tự test manual app iOS trên Simulator / iPhone thật qua mobile-mcp, theo TESTPROC của round hoặc khám phá thuần |
+| [`mobile-test-design`](skills/mobile-test-design/SKILL.md) | Giai đoạn 1 | Thêm lớp test đặc thù mobile vào thiết kế test của `test-design` (R ngầm + test condition), và scope cấp bản phát hành. Giữ danh mục test mobile dùng chung cho các skill khác |
 | Điều phối automation mobile (Maestro / Appium) | Giai đoạn 2 — chưa làm | |
 
 ## Yêu cầu

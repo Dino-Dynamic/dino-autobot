@@ -4,6 +4,10 @@ Dùng ở Bước 2 (khám phá khi thấy bất thường) và phiên khám ph�
 thử gì → làm trên Simulator bằng gì. Cột **Máy thật** = chỉ thử được trên iPhone thật; đang ở Simulator thì
 ghi đề xuất, không giả lập.
 
+File này là **hướng khám phá nhanh** khi đang chạy. Danh sách đầy đủ các tình huống mobile (có mã, dấu hiệu
+áp dụng, nền tảng, cần máy thật hay không) nằm ở `mobile-test-design/references/mobile-catalog.md`; khám phá ra
+chỗ kho test case chưa phủ thì đề xuất case kèm mã mục danh mục (vd `LC-03`).
+
 Giới hạn vẫn như `run-manual-test`: khoảng 10–15 thao tác mỗi bất thường. Đổi trạng thái thiết bị xong thì
 trả lại ngay.
 

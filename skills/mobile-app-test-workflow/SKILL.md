@@ -149,7 +149,9 @@ không thanh toán, không xoá dữ liệu người khác khi chưa có đồng
 2. **Chọn nhóm checklist** trong `references/checklists.md` theo đặc điểm app và gói (cột *Áp dụng khi*).
    Nhóm không chọn → ghi lý do (vd "app không có AI → bỏ AIF").
 3. **Dựng checklist round 1** (`CK-xxx`) = luồng và chức năng theo baseline (FUNC cụ thể hoá cho từng `FT` /
-   `UF` / `BR`) + các mục của nhóm đã chọn. Mỗi mục: ID, nhóm, nguồn (`FUNC-02` / `UF-03` / `BR-05`), thao tác →
+   `UF` / `BR`) + các mục của nhóm đã chọn. Nhóm **MOB** không chép chung chung: cụ thể hoá theo từng chức
+   năng bằng danh mục `mobile-test-design/references/mobile-catalog.md` (cách làm: mục *Dùng danh mục ở dự án
+   mobile-app-test-workflow* của skill đó). Mỗi mục: ID, nhóm, nguồn (`FUNC-02` / `UF-03` / `BR-05`), thao tác →
    kỳ vọng, ưu tiên, **chạy ở đâu** (Simulator / Emulator / Máy thật / Proxy), cột kết quả iOS | Android.
    Kỳ vọng lấy từ baseline hoặc giả định — ghi ID `BR` / `AS` làm căn cứ.
 4. **Dựng bộ smoke cố định** 15–30 bước `SM` phủ toàn bộ P0, chạy được trong khoảng 30 phút. Gói Full → ghi

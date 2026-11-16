@@ -35,6 +35,9 @@ nhập), mỗi bản là một `CK` có cột *Nguồn* = `FUNC-02 · FT-07`.
 
 ## MOB — Đặc thù mobile
 
+Mỗi mục MOB dưới đây là nhóm lớn. Khi dựng `CK`, cụ thể hoá theo chức năng bằng các mục chi tiết của
+`mobile-test-design/references/mobile-catalog.md` (vd MOB-01 → LC-01, LC-03 cho form chuyển tiền).
+
 | ID | Mục | Ưu tiên gợi ý | Áp dụng khi | Chạy ở |
 |---|---|---|---|---|
 | MOB-01 | Ngắt quãng: cuộc gọi đến, notification, đưa app xuống nền rồi mở lại, tắt hẳn app giữa thao tác | P1 (P0 cho luồng P0) | | Sim (nền / tắt app); Máy (cuộc gọi) |
